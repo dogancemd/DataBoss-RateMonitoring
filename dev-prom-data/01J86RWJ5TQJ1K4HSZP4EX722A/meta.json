@@ -1,0 +1,17 @@
+{
+	"ulid": "01J86RWJ5TQJ1K4HSZP4EX722A",
+	"minTime": 1726792752271,
+	"maxTime": 1726797600000,
+	"stats": {
+		"numSamples": 20,
+		"numSeries": 5,
+		"numChunks": 5
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01J86RWJ5TQJ1K4HSZP4EX722A"
+		]
+	},
+	"version": 1
+}
