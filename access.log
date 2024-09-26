@@ -1,0 +1,4 @@
+192.168.65.1 - - [26/Sep/2024:08:48:31 +0000] "GET / HTTP/1.1" 502 11 "-" "-" 1 "grafana@file" "http://grafana:3000" 139ms
+192.168.65.1 - - [26/Sep/2024:08:48:35 +0000] "GET / HTTP/1.1" 502 11 "-" "-" 2 "grafana@file" "http://grafana:3000" 6ms
+192.168.65.1 - - [26/Sep/2024:08:48:35 +0000] "GET / HTTP/1.1" 502 11 "-" "-" 3 "grafana@file" "http://grafana:3000" 5ms
+192.168.65.1 - - [26/Sep/2024:08:48:36 +0000] "GET / HTTP/1.1" 502 11 "-" "-" 4 "grafana@file" "http://grafana:3000" 6ms

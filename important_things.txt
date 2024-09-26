@@ -1,0 +1,2 @@
+sum(rate(traefik_service_requests_total[1m])) by (service)
+sum(rate(traefik_entrypoint_requests_total[1m])) by (entrypoint)
