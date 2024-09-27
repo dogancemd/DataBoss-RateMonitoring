@@ -1,7 +1,7 @@
 http:
   routers:
     service-image:
-      rule: "Host(`<service-domain>`)" # Replace with your domain
+      rule: "Host(`service.localhost`)" # Replace with your domain
       entryPoints:
         - web
         - websecure
@@ -89,6 +89,19 @@ networks:
 accessLog:
   filePath: "/var/log/traefik/access.log"
   bufferingSize: 100
+  fields:
+    defaultMode: drop
+    names:
+      ServiceName: keep
+      ServiceURL: keep
+      RequestScheme: keep
+      RouterName: keep
+    
+
+
+
+
+    
 
 ping: {}
 

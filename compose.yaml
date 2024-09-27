@@ -37,6 +37,8 @@ services:
       - ./prometheus.yml:/etc/prometheus/prometheus.yml
     networks:
       - traefik-public
+    ports:
+      - "9090:9090"
     depends_on:
       traefik:
         condition: service_healthy

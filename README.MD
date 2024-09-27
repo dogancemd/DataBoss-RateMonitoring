@@ -10,4 +10,6 @@ Change the error html file as your custom response.<br>
 LOAD BALANCING<br>
 At traefik.yml, add the docker service urls to be used in load-balancing.<br>
 CERTIFICATE<br>
-Be sure that hosting has ACME enabled.
+Be sure that hosting has ACME enabled.<br>
+ACCESS LOGGING<br>
+Logs can be seen at access.log by service name and url.

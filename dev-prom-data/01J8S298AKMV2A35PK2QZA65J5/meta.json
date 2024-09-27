@@ -1,0 +1,17 @@
+{
+	"ulid": "01J8S298AKMV2A35PK2QZA65J5",
+	"minTime": 1727337070976,
+	"maxTime": 1727337600000,
+	"stats": {
+		"numSamples": 5433,
+		"numSeries": 291,
+		"numChunks": 291
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01J8S298AKMV2A35PK2QZA65J5"
+		]
+	},
+	"version": 1
+}
